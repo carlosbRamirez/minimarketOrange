@@ -1,0 +1,7 @@
+Para poder poner en funcionamiento la aplicacion de nuestro sistema de informacion es necesario:
+1.crear la base de datos y las tablas en mysql con wl codigo propuesto en el archivo carlos_base_de_datos.sql
+2.guardar todos los archivos adjuntos en la carpeta de htdocs dentro de xampp.
+3.activar los servicios de apache y MySql en el panel de control de xampp.
+4.abrir la aplicacion desde el panel de control de xampp.
+5.registrarse y logearse en la aplicaion para poder interactuar con ella.
+fin. 

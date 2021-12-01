@@ -1,0 +1,161 @@
+﻿*{
+    background-color: black;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+.container{
+    height: 100vh;
+    width:100%;
+    font-family: 'Share Tech' , sans-serif; 
+    position: relative;
+}
+.logo{
+    font-weight:lighter;
+    font-size: 3.3rem;
+    color: rgb(27, 74, 201);
+}
+nav{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 100px;
+}
+ul li{
+    
+    display: inline-block;
+    list-style: none;
+    padding: 6px 30px;
+    font-weight: 500;
+    font-size: 1.7rem;
+    transition: all 0.3s ease 0s;
+    color:darkcyan;
+    text-shadow: darkred;
+    cursor: pointer;
+    left:50% ;
+}
+header{
+ position: absolute;
+ 
+ padding: 0px 100px;
+}
+header h1{
+    font-size: 5rem;
+    color: rgb(27, 74, 201);
+    font-weight:lighter;
+
+}
+header p{
+    font-size: 1.7rem;
+    color: floralwhite;
+}
+.container .emp{
+    position: absolute;
+    height:500px;
+    width: 550px;
+    left: 1%;
+    top:25%;
+    bottom: 0;
+    z-index: 999;
+}
+ul li:hover{
+    background-color: darkgrey;
+    border-radius:20px;
+}
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left:82%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #191919;
+}
+.box input[type="text"],.box input[type="password"],.box input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    cursor: pointer;
+    outline: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="submit"]:hover{
+    background: #2ecc71;
+}
+
+.iconos{
+  position: absolute;
+   top: 87%;
+    left:72%;
+  bottom: 8%;
+  padding:0 50px;
+}
+.iconos > i{
+   font-size:4rem;
+   padding:0 10px;
+   transition: all 0.3s ease 0s;
+   cursor:pointer;
+   color:#3498db;
+}
+.iconos > i:hover{
+ color :#2ecc71;
+}
+.bad {
+    font-family: 'Share Tech' , sans-serif; 
+    position: absolute;
+    top: 20%;
+    left: 85%;
+    transform: translate(-85%,-20%);
+    color: white;
+    font-weight: 500;
+}
+.registrar {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background: #191919;
+    list-style: none;
+}
+#reg {
+    cursor: pointer;
+    list-style: none;
+    color: white;
+}
